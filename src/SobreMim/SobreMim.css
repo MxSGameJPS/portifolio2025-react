@@ -1,0 +1,25 @@
+.sobre-mim {
+    background-color: #161616;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+}
+
+.sobre-mim div {
+    width: 350px;
+    /* margin: 90px 90px; */
+    color: white;
+    padding: 20px;;
+}
+
+.sobre-mim div h1 {
+    color: #7F6F3E;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+.sobre-mim img {
+    width: 400px;
+    margin-top: 100px;
+}

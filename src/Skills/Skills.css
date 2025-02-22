@@ -1,0 +1,28 @@
+.skills {
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+.skills h2 {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skills li {
+    color: #fff;
+    text-align: center;
+}
