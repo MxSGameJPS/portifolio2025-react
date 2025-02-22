@@ -1,4 +1,6 @@
 import './App.css';
+import Contatos from './Contatos';
+import Footer from './Footer';
 import Header from './header';
 import Projetos from './Projetos';
 import Skills from './Skills';
@@ -11,7 +13,9 @@ function App() {
       <Header />
       <SobreMim />
       <Skills/>
-      <Projetos/> 
+      <Projetos/>
+      <Contatos/>
+      <Footer/> 
     </div>    
   );
 };
