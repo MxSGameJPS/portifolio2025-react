@@ -1,24 +1,16 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Contatos from './Componentes/Contatos';
-import Footer from './Componentes/Footer';
-import Header from './Componentes/header';
-import Nav from './Componentes/Nav';
-import Projetos from './Componentes/Projetos';
-import Skills from './Componentes/Skills';
-import SobreMim from './Componentes/SobreMim';
+import Home from './Componentes/Inicio';
+
 
 
 function App() {
-  return (  
-    <div className="Appdiv">
-      <Nav/>    
-      <Header />
-      <SobreMim />
-      <Skills/>
-      <Projetos/>
-      <Contatos/>
-      <Footer/> 
-    </div>    
+  return (
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>  
+    </BrowserRouter>  
   );
 };
 
