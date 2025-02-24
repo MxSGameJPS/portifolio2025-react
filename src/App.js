@@ -1,15 +1,17 @@
 import './App.css';
-import Contatos from './Contatos';
-import Footer from './Footer';
-import Header from './header';
-import Projetos from './Projetos';
-import Skills from './Skills';
-import SobreMim from './SobreMim';
+import Contatos from './Componentes/Contatos';
+import Footer from './Componentes/Footer';
+import Header from './Componentes/header';
+import Nav from './Componentes/Nav';
+import Projetos from './Componentes/Projetos';
+import Skills from './Componentes/Skills';
+import SobreMim from './Componentes/SobreMim';
 
 
 function App() {
   return (  
-    <div>  
+    <div className="Appdiv">
+      <Nav/>    
       <Header />
       <SobreMim />
       <Skills/>
