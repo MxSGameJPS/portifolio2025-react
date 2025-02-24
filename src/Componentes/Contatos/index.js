@@ -11,23 +11,21 @@ const Contatos = () => {
                 <ul>
                     <li>
                         <MdOutlineMail size={30} />
-                        <span>Email</span>
-                        <p>mxsgamejps@gmail.com</p>
+                        <span>mxsgamejps@gmail.com</span>
+                        
                     </li>
                     <li>
-                        <RiLinkedinBoxFill size={30} />
+                        {/* <RiLinkedinBoxFill size={30} /> */}
+                        <a href="https://www.linkedin.com/in/saulopavanello/" target="_blank" rel="noreferrer"><RiLinkedinBoxFill size={30} /></a>
                         <span>LinkedIn</span>
-                        <a href="https://www.linkedin.com/in/saulopavanello/" target="_blank" rel="noreferrer"><p>Linkedin</p></a>
                     </li>
-                    <li>
-                        <FaGithub size={30} />
+                    <li>                        
+                        <a href="https://github.com/MxSGameJPS" target="_blank" rel="noreferrer"><FaGithub size={30} /></a>
                         <span>GitHub</span>
-                        <a href="https://github.com/MxSGameJPS" target="_blank" rel="noreferrer"><p>GitHub</p></a>
                     </li>
                     <li>
                         <IoLogoWhatsapp size={30} />
-                        <span>WhatsApp</span>
-                        <p>+55 51 99339-2983</p>
+                        <span>+55 51 99339-2983</span>                        
                     </li>
                 </ul>
             </div>

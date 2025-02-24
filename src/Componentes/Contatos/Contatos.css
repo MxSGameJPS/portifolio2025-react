@@ -3,6 +3,10 @@
     color: #fff;
 }
 
+.contatos span {
+    margin-top: 10px;
+}
+
 .contatos h2 {
     font-size: 30px;
 }

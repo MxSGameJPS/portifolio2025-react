@@ -1,7 +1,15 @@
 .footer {
+    display: flex;
     text-align: center;
     color: #FFF;
     padding: 20px;
-    margin-top: 50px;
+    margin: 50px 0 0 0;
     background-color: #4B3D10;
+
+
+}
+
+.footer p {
+    margin: 0 auto;
+    width: 100%;
 }
