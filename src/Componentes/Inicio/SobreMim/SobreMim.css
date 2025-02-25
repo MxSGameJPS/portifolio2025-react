@@ -20,6 +20,12 @@
 }
 
 .sobre-mim img {
-    width: 300px;
+    width: 400px;
     margin-top: 70px;
+}
+
+@media (max-width: 1024px) {
+    .sobre-mim img {
+        width: 300px;
+    }
 }

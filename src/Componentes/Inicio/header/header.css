@@ -37,16 +37,7 @@
     color: #ffffff;
 }
 
-.nav {
-    position: absolute;
-    top: 30%;
-    left: 110%;
-}
 
-.nav ul {
-    list-style-type: none;
-    padding-inline-start: 0;
-}
 
 @media (max-width: 1024px) {
     .container h1 {

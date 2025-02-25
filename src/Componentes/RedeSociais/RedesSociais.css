@@ -1,0 +1,23 @@
+.nav {
+    position: absolute;
+    top: 30%;
+    left: 110%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+
+}
+
+@media (max-width: 1024px) {    
+    .nav {        
+        position: static;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}

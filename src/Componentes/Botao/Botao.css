@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+    .button .actual-text {      
+        font-size: 25px;
+        text-align: center;
+        margin: 0 auto;    
+      }
+
+      .button .hover-text {
+        font-size: 40px;
+        text-align: center;
+        margin: 15px 0;
+
+      }
+}
