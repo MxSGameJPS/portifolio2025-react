@@ -2,6 +2,7 @@ import "./Projetos.css";
 import { IoLogoJavascript } from "react-icons/io5";
 import { TbApi } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
+import { SiVite, SiReact  } from "react-icons/si";
 
 const Projetos = () => {
   return (
@@ -33,24 +34,25 @@ const Projetos = () => {
         </div>
         <div className="card">
           <iframe
-            title="Alura book"
-            src="https://alurabooks-iota-red.vercel.app"
+            title="Space App"
+            src="https://space-app-theta-gules.vercel.app"
             width="400"
             height="282"
             frameBorder="0"
             allowFullScreen
+            overflow="hidden"
           ></iframe>
-          <a href='hhttps://alurabooks-iota-red.vercel.app' target ="_blank" rel="noreferrer">AluraBook</a>
-          <p>Um projeto de loja de livros, onde é possível vizualizar descontos automáticos e livros disponiveis por categoria.</p>
+          <a href='hhttps://alurabooks-iota-red.vercel.app' target ="_blank" rel="noreferrer">Space App</a>
+          <p>Um projeto incrível, com fotos do espaço, onde podemos filtrar por tags e por palavras. Vamos navegar pelo espaço?</p>
           <div className="techs">
-            <span><IoLogoJavascript size={30} /></span>
-            <span><TbApi size={30} /></span>
+            <span><SiReact  size={30} /></span>
+            <span><SiVite size={30} /></span>
             <span><FaGithub size={30} /></span>
           </div>
           <p className="borda"></p>
           <div className="ferramentas">
-            <span>HTML5</span>
-            <span>SASS</span>
+            <span>VITE</span>
+            <span>REACT</span>
             <span>JavaScript</span>
           </div>
         </div>

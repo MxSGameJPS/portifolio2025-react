@@ -28,7 +28,12 @@
     border: 6px solid  #9D174D;
     width: 400px;
     border-radius: 0px 25px;
-    padding: 16px;    
+    padding: 16px;
+    overflow: hidden;    
+}
+
+.card iframe {
+    overflow: hidden;
 }
 
 .techs {
@@ -40,7 +45,7 @@
     text-decoration: none;
     font-size: 25px;
     color: #a77916;
-
+    overflow: hidden;
 }
 
 .ferramentas {
@@ -64,5 +69,6 @@
     .card iframe {
         width: 100%;
         height: 200px;
+        overflow: hidden;
     }
 }
